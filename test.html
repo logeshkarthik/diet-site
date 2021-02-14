@@ -2,6 +2,9 @@
 <html lang="zxx">
 
 <head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,30 +24,77 @@
             <a href class="main-nav__logo">
                 <img src="images/logo.png" width="150px" alt="site logo">
             </a>
+            <!-- Diet and fitness
+
+Weight loss diet
+Weight gain diet
+Diabetes diet
+Body building diet
+Thyroid diet
+
+Skin and hair care
+
+
+Diseases and disorders 
+
+
+Women’s health 
+PCOS/PCOD
+Pregnancy
+Infertility
+Endometriosis
+Uterine fibroids 
+
+Mental health
+Sexual health
+Nutrition and supplements
+Recipes -->
+
 
             <ul class="main-nav-list">
-                <li><a href class="active">Home test</a></li>
-                <li><a href="#about-sec">About</a></li>
-                <li><a href="#features-sec">Features</a></li>
-                <li><a href="#testimonials-sec">Testimonials</a></li>
-                <!-- <li class="nav-item-has-dropdown">
-                    <a href="blog.html">Blog</a>
+                <li class="nav-item-has-dropdown">
+                    <a href="blog.html">Diet & Fitness</a>
                     <ul class="nav-item-dropdown">
-                        <li><a href="blog-style-2.html">Blog Style 2</a></li>
-                        <li><a href="blog-style-3.html">Blog Style 3</a></li>
-                        <li><a href="blog-post.html">Blog Post</a></li>
+
+                        <li><a href="blog-style-2.html">Weight loss diet</a></li>
+                        <li><a href="blog-style-3.html">Weight gain diet</a></li>
+                        <li><a href="blog-post.html">Diabetes diet</a></li>
+                        <li><a href="blog-style-3.html">Body building diet</a></li>
+                        <li><a href="blog-post.html">Thyroid diet</a></li>
                     </ul>
-                </li> -->
-                <li><a href="contact.html">Contact</a></li>
+                </li>
+                <li>
+                    <a href="#about-sec"></a>
+                </li>
+                <li><a href="#features-sec">Skin & Hair care</a></li>
+                <li><a href="#testimonials-sec">Diseases & Disorders</a></li>
+                <li class="nav-item-has-dropdown">
+                    <a href="blog.html">Women's Health</a>
+                    <ul class="nav-item-dropdown">
+
+                        <li><a href="blog-style-2.html">PCOS/PCOD</a></li>
+                        <li><a href="blog-style-3.html">Pregnancy</a></li>
+                        <li><a href="blog-post.html"> Infertility</a></li>
+                        <li><a href="blog-style-3.html">Endometriosis</a></li>
+                        <li><a href="blog-post.html">Uterine fibroids</a></li>
+                    </ul>
+                </li>
+
+
+
+                <li><a href="#">Mental health</a></li>
+                <li><a href="#">Sexual health</a></li>
+                <li><a href="#">Nutrition & Supplements</a></li>
+                <li><a href="#">Recipes</a></li>
             </ul>
 
-            <!-- <div class="main-nav-right-list">
+            <div class="main-nav-right-list">
                 <div class="social-icons">
                     <a href="#"><i class="ion-social-facebook"></i></a>
                     <a href="#"><i class="ion-social-twitter"></i></a>
                     <a href="#"><i class="ion-social-instagram"></i></a>
                 </div>
-            </div> -->
+            </div>
 
             <div id="main-nav-toggle">
                 <span class="one"></span>
@@ -146,7 +196,56 @@
             </div>
         </div>
     </div>
+    <!-- SECTION- DIET AND FITNESS -->
+    <div class="section section-how-it-works" id="about-sec">
+        <div class="container">
+            <h2 class="main-section-title">How It Works</h2>
+            <p class="section-description-text">Find out how you can easily join us and become a part of our community</p>
 
+            <div class="row">
+                <div class="col-md-6 col-lg col-sm-6">
+                    <div class="feature-lefted">
+                        <div class="feature-lefted__icon">
+                            <img src="images/feat-icon1.png" alt="feature icon">
+                        </div>
+                        <p class="feature__title">Weight Loss</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg col-sm-6">
+                    <div class="feature-lefted">
+                        <div class="feature-lefted__icon">
+                            <img src="images/feat-icon2.png" alt="feature icon">
+                        </div>
+                        <p class="feature__title">Weight Gain</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg col-sm-6">
+                    <div class="feature-lefted">
+                        <div class="feature-lefted__icon">
+                            <img src="images/feat-icon3.png" alt="feature icon">
+                        </div>
+                        <p class="feature__title">Diabetes Diet</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg col-sm-6">
+                    <div class="feature-lefted">
+                        <div class="feature-lefted__icon">
+                            <img src="images/feat-icon4.png" alt="feature icon">
+                        </div>
+                        <p class="feature__title">Body Building Diet</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg col-sm-6">
+                    <div class="feature-lefted">
+                        <div class="feature-lefted__icon">
+                            <img src="images/feat-icon4.png" alt="feature icon">
+                        </div>
+                        <p class="feature__title">Thyroid diet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- WHY TRACK YOUR FOOD/ABOUT -->
     <div class="section section-about">
         <span class="bg-shape-1"><img src="images/bg-shape1.png" alt="background pattern"></span>
@@ -498,11 +597,11 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/wow.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script> -->
     <!-- END SCRIPTS -->
 
 
