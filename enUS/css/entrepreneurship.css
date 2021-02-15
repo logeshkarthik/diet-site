@@ -1,0 +1,395 @@
+.products {
+  margin: 110px auto 168px;
+  text-align: center;
+}
+.products .product-des h5 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 110px;
+}
+.products .product-content {
+  margin: 0 auto;
+  text-align: center;
+}
+.products .product-content .product-cell {
+  width: calc((100% - 170px) / 3);
+  display: inline-block;
+  vertical-align: top;
+}
+.products .product-content .product-cell:nth-child(2) {
+  margin: 0 6%;
+}
+.products .product-content .product-cell .sprites {
+  width: 70px;
+  height: 66px;
+  margin: 0 auto;
+  background-image: url('../images/product_sprites.png');
+}
+.products .product-content .product-cell .start1 {
+  background-position: -556px -236px;
+}
+.products .product-content .product-cell .start2 {
+  background-position: -556px -451px;
+}
+.products .product-content .product-cell .start3 {
+  background-position: -556px -346px;
+}
+.products .product-content .product-cell a {
+  color: #fe4066;
+}
+.products .product-content .product-cell p {
+  font-size: 14px;
+  color: #8c8889;
+  line-height: 24px;
+}
+.products .product-content .product-cell h6 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px auto 15px;
+}
+.describe {
+  width: 92%;
+  margin: 0 auto;
+  text-align: center;
+}
+.describe h5 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 98px;
+}
+.describe p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #8c8889;
+}
+.describe .describe-content {
+  max-width: 1300px;
+  margin: 0 auto 120px;
+  font-size: 0;
+  letter-spacing: 0;
+  text-align: left;
+}
+.describe .describe-content .content-left {
+  width: 50.5%;
+  height: 30vw;
+  max-height: 407px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.describe .describe-content .content-left .inner {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.describe .describe-content .content-left .inner h5 {
+  margin-bottom: 26px;
+}
+.describe .describe-content .content-left .inner p {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+  max-width: 395px;
+}
+.describe .describe-content .content-left .inner p:last-child {
+  margin-bottom: 0;
+}
+.describe .describe-content .content-right {
+  width: 49.5%;
+  height: 30vw;
+  max-height: 407px;
+  display: inline-block;
+  position: relative;
+}
+.describe .describe-content .content-right .inner {
+  position: absolute;
+  top: 50%;
+  left: 11%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.describe .describe-content .content-right .inner h5 {
+  margin: 0 0 30px 0;
+  width: 100%;
+}
+.describe .describe-content .content-right .inner p {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+  max-width: 392px;
+}
+.describe .describe-content .content-right .inner p:last-child {
+  margin-bottom: 0;
+}
+.describe .describe-content img {
+  max-width: 651px;
+  width: 100%;
+}
+.describe .describe-content h5 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 53px;
+}
+.describe .small-view {
+  display: none;
+}
+.team {
+  width: 92%;
+  margin: 0 auto 80px;
+  text-align: center;
+  padding-top: 66px;
+}
+.team h5 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: -10px 0 80px 0;
+}
+.team ul {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 0;
+  letter-spacing: 0;
+}
+.team ul li {
+  width: 310px;
+  height: 144px;
+  max-width: 310px;
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid #e9e9e9;
+  transition: 0.3s;
+  background-image: url('../images/start_sprites.png');
+}
+.team ul li:nth-child(4n + 1) {
+  margin-left: 0;
+}
+.team ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.team ul li:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+.team ul li img {
+  width: 100%;
+  height: 100%;
+  max-width: 310px;
+  max-height: 144px;
+}
+.custom {
+  text-align: center;
+  margin-top: 140px;
+  background-color: #ffffff;
+}
+.custom .custom-wrap .swiper-container {
+  padding-top: 60px;
+}
+.custom h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.content-red p {
+  font-size: 14px;
+  color: #ffffff;
+}
+@media (max-width: 1430px) {
+  .team ul li {
+    margin: 0 -14px !important;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+}
+@media (max-width: 1180px) {
+  .describe .describe-content .content-left h5 {
+    margin-top: 6%;
+  }
+}
+@media (max-width: 1061px) {
+  .custom h2 {
+    font-size: 36px;
+  }
+  .describe .describe-content .content-right .inner {
+    left: 6%;
+  }
+  .products .product-des h5 {
+    font-size: 36px;
+    font-weight: 400;
+  }
+  .team h5 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1007px) {
+  .products .product-content {
+    width: 100%;
+  }
+  .describe .describe-content {
+    margin: 0 auto 130px;
+  }
+  .describe .describe-content h5 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 950px) {
+  .describe .describe-content {
+    margin: 0 auto 100px;
+  }
+  .products .product-content {
+    margin-bottom: 130px;
+  }
+}
+@media (max-width: 936px) {
+  .team ul li {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    margin: -10px -35px !important;
+  }
+}
+@media (max-width: 805px) {
+  .products {
+    margin-top: 70px;
+  }
+  .products .product-content .product-cell {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .products .product-content .product-cell:nth-child(2) {
+    margin: 30px 0 0;
+  }
+  .products .product-content .product-cell h6 {
+    font-size: 18px;
+  }
+  .products .product-des h5 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .describe h5 {
+    font-size: 28px;
+    margin-bottom: 80px;
+  }
+  .describe .small-view {
+    display: block;
+  }
+  .describe .big-view {
+    display: none;
+  }
+  .describe .describe-content {
+    text-align: center;
+  }
+  .describe .describe-content img {
+    max-width: 500px;
+  }
+  .describe .describe-content .content-left {
+    width: 100%;
+    height: auto;
+  }
+  .describe .describe-content .content-left .inner {
+    position: relative;
+    width: 100%;
+    top: auto;
+    left: auto;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  .describe .describe-content .content-left .inner p {
+    max-width: 100%;
+  }
+  .describe .describe-content .content-left .inner h5 {
+    margin-left: 0;
+    margin-top: -18px;
+  }
+  .describe .describe-content .content-right {
+    width: 100%;
+    height: auto;
+  }
+  .describe .describe-content .content-right .inner {
+    position: relative;
+    width: 100%;
+    top: auto;
+    left: auto;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  .describe .describe-content .content-right .inner p {
+    max-width: unset;
+  }
+  .describe .describe-content .content-right .inner h5 {
+    margin-top: 26px;
+  }
+  .team h5 {
+    font-size: 28px;
+  }
+  .custom h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 500px) {
+  .products {
+    margin-bottom: 120px;
+  }
+  .products .product-des h5 {
+    font-size: 22px;
+  }
+  .describe .describe-content {
+    margin-bottom: 70px;
+  }
+  .describe .describe-content .content-right .inner h5 {
+    font-size: 18px;
+  }
+  .describe h5 {
+    font-size: 22px;
+  }
+  .team h5 {
+    font-size: 22px;
+  }
+  .custom {
+    margin-top: 120px;
+  }
+  .custom h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 375px) {
+  .products {
+    margin-bottom: 70px;
+  }
+  .products .product-content {
+    margin-bottom: 0;
+  }
+  .products .product-content .product-cell {
+    width: 97%;
+  }
+  .products .product-content .product-cell h6 {
+    margin: 32px auto 20px;
+    font-weight: 600;
+  }
+  .products .product-content .product-cell img {
+    width: 66px;
+  }
+  .products .product-des h5 {
+    margin: 30px 25px 22px;
+  }
+  .describe {
+    width: 84%;
+  }
+  .describe .describe-content .content-right .inner {
+    text-align: left;
+  }
+  .describe .describe-content .content-right .inner h5 {
+    margin: 60px 0 22px 0;
+    font-weight: 600;
+  }
+  .describe h5 {
+    margin-bottom: 60px;
+  }
+  .team h5 {
+    margin-bottom: 25px;
+  }
+  .custom .custom-wrap .swiper-container {
+    padding: 90px 19px 30px;
+  }
+  .custom h2 {
+    font-size: 28px;
+    margin: 0 45px;
+  }
+}
